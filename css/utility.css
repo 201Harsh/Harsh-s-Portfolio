@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lora:ital,wght@0,400..700;1,400..700&family=Mukta:wght@200;300;400;500;600;700;800&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+:root {
+    --nav-bg-color: #212529;
+    --bg-color: rgb(14, 45, 73);
+    --hover-color: rgb(197, 110, 255);
+    --text-color: white;
+    --pu-color: rgb(247, 82, 159);
+    --test-bg-color: #3a1854;
+    --sec-span-color: #c313b7;
+    --boder-color: white;
+    --box-bg-color: rgb(55, 128, 223);
+    --pg-bar-color: rgb(110, 112, 110);
+    --abut-color: #e69e61;
+    --intro-color: #f371a2;
+    --cont-color: rgb(36, 21, 62);
+    --price-color: #0281ff;
+    --footer_nav-color: #d741cc;
+}
+
+/* Light Theme */
+:root.light-theme {
+    --nav-bg-color: #b9bcc4;
+    --bg-color: #ffffff;
+    --hover-color: #3cc259;
+    --text2-color: white;
+    --text-color: #000000;
+    --pu-color: rgb(247, 82, 159);
+    --test-bg-color: #e2cbf4;
+    --sec-span-color: rgb(255, 255, 255);
+    --boder-color: black;
+    --box-bg-color: rgb(55, 128, 223);
+    --pg-bar-color: rgb(238, 235, 235);
+    --abut-color: #107da8;
+    --intro-color: #bd1852;
+    --cont-color: #b1b493;
+}
+
+.top1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left1 {
+    width: 30%;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+
+.left1 h1 {
+    font-size: 2.1rem;
+    font-family: "Lora", serif;
+}
+
+.left1 p {
+    font-family: "Mukta", sans-serif;
+    font-size: 1.3rem;
+    padding: 25px;
+}
+
+.right1 {
+    width: 40%;
+    margin-left: 32px;
+    margin-top: 24px;
+}
+
+.project3 {
+    width: 100%;
+}
+
+.btn4 {
+    padding: 12px 12px;
+    font-size: 1.1rem;
+    background-color: var(--cont-color);
+    color: var(--text-color);
+    cursor: pointer;
+    width: 60%;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 2px solid var(--boder-color);
+}
+
+.btn4:hover {
+    border: 3px solid var(--boder-color);
+    background-color: var(--bg-color);
+}
+
+.box:hover {
+    cursor: grab;
+}
